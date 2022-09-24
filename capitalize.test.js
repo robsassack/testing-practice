@@ -1,7 +1,7 @@
 const capitalize = require('./capitalize');
 
 test('capitalize hello world', () => {
-  expect(capitalize('hello world!')).toMatch(/Hello world!/);
+  expect(capitalize('hello world!')).toBe('Hello world!');
 });
 
 test('capitalize welcome', () => {
